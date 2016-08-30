@@ -1,7 +1,4 @@
-//: ----
-//:  - [小波说雨燕 Swift语法简明版](http://www.xiaoboswift.com)
-//:  - 全集课件：[github.com/yagamis](http://github.com/yagamis/swift2basic)
-//: ----
+
 //: 初始化：描述类/结构体/枚举实例化时，属性如何给初始值的方法。形式：init(){  }。此方法称之为构造器。
 
 //: - 1⃣️类的定义没有给属性默认的值，则须在init中指定。
@@ -96,8 +93,8 @@ elepant?.name.fastestEncoding.description
 
 
 
-let url = NSURL(string: "http://www.xiaoboswift.com")
+let url = URL(string: "http://www.xiaoboswift.com")
 
-let urlrequest = NSURLRequest(URL: url!)
+let urlrequest = URLRequest(url: url!)
 
 //: [](@next)

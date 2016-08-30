@@ -1,5 +1,5 @@
 //: ----
-//:  - [小波说雨燕 Swift语法简明版](http://www.xiaoboswift.com)
+//:  - [小波说雨燕 3天学会Swift 3](http://www.xiaoboswift.com)
 //:  - 全集课件：[github.com/yagamis](http://github.com/yagamis/swift2basic)
 //: ----
 //: - 属性是一个类/结构体/枚举关联的值. 分为实例属性和类型属性.
@@ -7,8 +7,8 @@
 //: ----
 //:  - 常规属性: 一个存储用的常量/变量.
 class 角色 {
-    let id:String = "xiaobo"
-    var money: Int = 9999
+    let id = "xiaobo"
+    var money = 9999
 }
 
 let 小波 = 角色()
